@@ -1,0 +1,20 @@
+@import 'partials/mixins';
+
+@import 'partials/about_me';
+@import 'partials/content_window';
+@import 'partials/disqus';
+@import 'partials/menu';
+@import 'partials/not_found';
+@import 'partials/post_snippet';
+@import 'partials/post_view';
+
+* {
+  box-sizing: border-box;
+}
+
+// Style for dynamically loaded posts
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  background-color: #e0dfdf;
+}
