@@ -6395,8 +6395,8 @@ b.d=y+z}return},
 gb3:function(){var z=this.d
 return new H.av(z,new R.lv(),[H.n(z,0),null]).W(0,"")}},lv:{"^":"e:13;",
 $1:[function(a){return a.gb3()},null,null,2,0,null,18,"call"]}}],["","",,X,{"^":"",jn:{"^":"cY;a",
-hX:function(){for(var z=H.dp(new P.aK(Date.now(),!1));z>=2016;--z)W.eD("https://raw.githubusercontent.com/stwupton/blog_posts/dev/index/"+z+".json",null,null,null,null,null,null,null).c4(new X.jo(this,z)).e1(new X.jp(z))},
-hY:function(a,b,c){W.eD("https://raw.githubusercontent.com/stwupton/blog_posts/dev/posts/"+H.c(a)+"/"+H.c(b)+"/"+H.c(c)+".md",null,null,null,null,null,null,null).c4(new X.jq(this,a,b,c)).e1(new X.jr(this,a,b,c))}},jo:{"^":"e:16;a,b",
+hX:function(){for(var z=H.dp(new P.aK(Date.now(),!1));z>=2018;--z)W.eD("https://raw.githubusercontent.com/stwupton/blog_posts/master/index/"+z+".json",null,null,null,null,null,null,null).c4(new X.jo(this,z)).e1(new X.jp(z))},
+hY:function(a,b,c){W.eD("https://raw.githubusercontent.com/stwupton/blog_posts/master/posts/"+H.c(a)+"/"+H.c(b)+"/"+H.c(c)+".md",null,null,null,null,null,null,null).c4(new X.jq(this,a,b,c)).e1(new X.jr(this,a,b,c))}},jo:{"^":"e:16;a,b",
 $1:[function(a){var z,y
 z=C.a2.hK(J.e1(a))
 y=this.a.a
@@ -6490,7 +6490,7 @@ else document.title=H.c(J.c5(y))+" | Steven Upton's Blog"}else document.title="S
 this.ho()},"$1","ghn",2,0,12,0],
 ho:function(){var z,y,x
 this.d.content=window.location.href
-this.c.content="https://lh3.googleusercontent.com/eLeox_SmZo7fHesMSn2fkY0OJ4DPRWZYljvKylBsoPRmmd-027pFvjQut3csYjxLNsvWte5CvwmgtA=w1920-h1080-rw-no"
+this.c.content="https://lh3.googleusercontent.com/BLSrE-x7j-XcGei1MlwVeRKxez75Md0Ho2cEtV2FT9QLTt6il4zMlC1t4w-pvfeYNL0PIbSOWEdUbw=s179-rw-no"
 z=new L.ku(this)
 y=$.$get$aU()
 if(y.f===C.h){x=$.$get$a4().cV(y.c,y.d,y.e)
@@ -6718,7 +6718,7 @@ w=z.createElement("div")
 w.id="content_window"
 z=z.createElement("div")
 z.id="header"
-v=W.cZ("https://raw.githubusercontent.com/stwupton/blog_posts/dev/feed.xml")
+v=W.cZ("https://raw.githubusercontent.com/stwupton/blog_posts/master/feed.xml")
 v.title="Atom Feed"
 v.target="_blank"
 v.id="rss_button"
@@ -6762,7 +6762,7 @@ w.type="text/javascript"
 v=this.e
 u=this.f
 t=this.r
-w.appendChild(z.createTextNode("    /**\r\n    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.\r\n    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/\r\n\r\n    var disqus_config = function() {\r\n      this.page.url = 'https://stwupton.netlify.com/"+H.c(v)+"/"+H.c(u)+"/"+H.c(t)+"';  // Replace PAGE_URL with your page's canonical URL variable\r\n      this.page.identifier = '"+H.c(v)+"_"+H.c(u)+"_"+H.c(t)+"'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable\r\n    };\r\n\r\n    (function() { // DON'T EDIT BELOW THIS LINE\r\n      var d = document, s = d.createElement('script');\r\n      s.src = '//stwupton-blog.disqus.com/embed.js';\r\n      s.setAttribute('data-timestamp', +new Date());\r\n      (d.head || d.body).appendChild(s);\r\n    })();"))
+w.appendChild(z.createTextNode("    /**\r\n    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.\r\n    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/\r\n\r\n    var disqus_config = function() {\r\n      this.page.url = 'https://stwupton.com/"+H.c(v)+"/"+H.c(u)+"/"+H.c(t)+"';  // Replace PAGE_URL with your page's canonical URL variable\r\n      this.page.identifier = '"+H.c(v)+"_"+H.c(u)+"_"+H.c(t)+"'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable\r\n    };\r\n\r\n    (function() { // DON'T EDIT BELOW THIS LINE\r\n      var d = document, s = d.createElement('script');\r\n      s.src = '//stwupton-blog.disqus.com/embed.js';\r\n      s.setAttribute('data-timestamp', +new Date());\r\n      (d.head || d.body).appendChild(s);\r\n    })();"))
 new W.y(y).l(0,[x,w])
 return y}},kj:{"^":"ak;e,f,a,b,c,d",
 dB:function(){var z,y,x,w,v
